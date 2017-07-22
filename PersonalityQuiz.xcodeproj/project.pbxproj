@@ -66,15 +66,10 @@
 		0295F5A21F23F32500506A28 /* PersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				0295F5A31F23F32500506A28 /* AppDelegate.swift */,
-				0295F5A51F23F32500506A28 /* IntroductionViewController.swift */,
-				0295F5A71F23F32500506A28 /* Main.storyboard */,
-				0295F5AA1F23F32500506A28 /* Assets.xcassets */,
-				0295F5AC1F23F32500506A28 /* LaunchScreen.storyboard */,
-				0295F5AF1F23F32500506A28 /* Info.plist */,
-				0295F5B51F23FD4900506A28 /* QuestionViewController.swift */,
-				0295F5B71F23FD5800506A28 /* ResultViewController.swift */,
+				0295F5C21F2407B700506A28 /* ViewController */,
 				0295F5C11F24053100506A28 /* Model */,
+				0295F5C31F2407CA00506A28 /* Supporting Files */,
+				0295F5A71F23F32500506A28 /* Main.storyboard */,
 			);
 			path = PersonalityQuiz;
 			sourceTree = "<group>";
@@ -88,6 +83,27 @@
 				0295F5BF1F24040A00506A28 /* AnimalType.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		0295F5C21F2407B700506A28 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0295F5A51F23F32500506A28 /* IntroductionViewController.swift */,
+				0295F5B51F23FD4900506A28 /* QuestionViewController.swift */,
+				0295F5B71F23FD5800506A28 /* ResultViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0295F5C31F2407CA00506A28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0295F5A31F23F32500506A28 /* AppDelegate.swift */,
+				0295F5AA1F23F32500506A28 /* Assets.xcassets */,
+				0295F5AC1F23F32500506A28 /* LaunchScreen.storyboard */,
+				0295F5AF1F23F32500506A28 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
