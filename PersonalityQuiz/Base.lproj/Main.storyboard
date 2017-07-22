@@ -96,30 +96,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Hr-ol-zH4">
-                                <rect key="frame" x="16" y="243.5" width="46" height="180"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Hr-ol-zH4">
+                                <rect key="frame" x="16" y="244" width="46" height="180"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahu-jC-Lg7">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahu-jC-Lg7">
                                         <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdR-ts-wPD">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdR-ts-wPD">
                                         <rect key="frame" x="0.0" y="50" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdc-jO-el7">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdc-jO-el7">
                                         <rect key="frame" x="0.0" y="100" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfh-eO-JEQ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfh-eO-JEQ">
                                         <rect key="frame" x="0.0" y="150" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="CSl-hj-YOD">
-                                <rect key="frame" x="16" y="216.5" width="343" height="234"/>
+                                <rect key="frame" x="16" y="217" width="343" height="234"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aec-Uh-G09">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="31"/>
@@ -183,17 +182,14 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="vw2-fy-wNU" firstAttribute="leading" secondItem="CSl-hj-YOD" secondAttribute="leading" id="58n-3e-jTE"/>
-                                    <constraint firstAttribute="trailing" secondItem="vw2-fy-wNU" secondAttribute="trailing" id="5tL-Pc-nQF"/>
-                                    <constraint firstAttribute="trailing" secondItem="uwZ-Ka-0vW" secondAttribute="trailing" id="VS5-SJ-WAe"/>
-                                    <constraint firstAttribute="trailing" secondItem="aec-Uh-G09" secondAttribute="trailing" id="ZoN-oS-yxt"/>
-                                    <constraint firstItem="aec-Uh-G09" firstAttribute="leading" secondItem="CSl-hj-YOD" secondAttribute="leading" id="e88-Qi-xtF"/>
-                                    <constraint firstItem="DmI-PC-kfW" firstAttribute="leading" secondItem="CSl-hj-YOD" secondAttribute="leading" id="j5x-f0-RbH"/>
-                                    <constraint firstAttribute="trailing" secondItem="DmI-PC-kfW" secondAttribute="trailing" id="zdq-xj-O0C"/>
+                                    <constraint firstItem="DmI-PC-kfW" firstAttribute="trailing" secondItem="uwZ-Ka-0vW" secondAttribute="trailing" id="Rrh-K9-opl"/>
+                                    <constraint firstItem="aec-Uh-G09" firstAttribute="trailing" secondItem="vw2-fy-wNU" secondAttribute="trailing" id="Tf9-px-win"/>
+                                    <constraint firstAttribute="trailing" secondItem="aec-Uh-G09" secondAttribute="trailing" id="uM3-dh-Y2J"/>
+                                    <constraint firstItem="vw2-fy-wNU" firstAttribute="trailing" secondItem="DmI-PC-kfW" secondAttribute="trailing" id="zfv-NJ-NTU"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="whk-mW-kDn">
-                                <rect key="frame" x="-7.5" y="273.5" width="390" height="120.5"/>
+                                <rect key="frame" x="-8" y="274.5" width="390" height="120.5"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="DD7-tC-H2Z">
                                         <rect key="frame" x="-2" y="0.0" width="394" height="31"/>
@@ -233,17 +229,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="CSl-hj-YOD" firstAttribute="centerY" secondItem="hYx-l5-95P" secondAttribute="centerY" id="0qR-2h-yGm"/>
-                            <constraint firstItem="whk-mW-kDn" firstAttribute="centerY" secondItem="hYx-l5-95P" secondAttribute="centerY" id="4XD-JW-bWR"/>
-                            <constraint firstItem="CSl-hj-YOD" firstAttribute="leading" secondItem="hYx-l5-95P" secondAttribute="leadingMargin" id="7eg-kt-Urx"/>
-                            <constraint firstItem="efU-qH-q3s" firstAttribute="top" secondItem="uhJ-Xx-fxx" secondAttribute="bottom" constant="20" id="B80-jE-VgA"/>
-                            <constraint firstItem="4Md-Hs-yA1" firstAttribute="leading" secondItem="hYx-l5-95P" secondAttribute="leadingMargin" id="BjK-Jg-hdk"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uhJ-Xx-fxx" secondAttribute="trailing" id="Gzp-mA-oA1"/>
-                            <constraint firstItem="4Md-Hs-yA1" firstAttribute="top" secondItem="1t0-KE-JTw" secondAttribute="bottom" constant="20" id="R1d-Xp-uSE"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="CSl-hj-YOD" secondAttribute="trailing" id="fDJ-Vg-A7N"/>
-                            <constraint firstItem="uhJ-Xx-fxx" firstAttribute="leading" secondItem="hYx-l5-95P" secondAttribute="leadingMargin" id="fUM-NL-bah"/>
-                            <constraint firstItem="whk-mW-kDn" firstAttribute="centerX" secondItem="hYx-l5-95P" secondAttribute="centerX" id="kk7-w3-97e"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="4Md-Hs-yA1" secondAttribute="trailing" id="vQt-TV-ssB"/>
+                            <constraint firstItem="CSl-hj-YOD" firstAttribute="centerX" secondItem="whk-mW-kDn" secondAttribute="centerX" id="70B-8O-3Yi"/>
+                            <constraint firstItem="4Md-Hs-yA1" firstAttribute="trailing" secondItem="hYx-l5-95P" secondAttribute="trailingMargin" id="8cp-aN-nPZ"/>
+                            <constraint firstItem="4Md-Hs-yA1" firstAttribute="top" secondItem="1t0-KE-JTw" secondAttribute="bottom" constant="20" id="GXh-Mv-XdR"/>
+                            <constraint firstItem="whk-mW-kDn" firstAttribute="leading" secondItem="hYx-l5-95P" secondAttribute="leadingMargin" constant="-24" id="Heg-ZY-MjC"/>
+                            <constraint firstItem="4Md-Hs-yA1" firstAttribute="leading" secondItem="hYx-l5-95P" secondAttribute="leadingMargin" id="Ixj-wl-bNe"/>
+                            <constraint firstItem="4Hr-ol-zH4" firstAttribute="centerY" secondItem="hYx-l5-95P" secondAttribute="centerY" id="LdM-7M-h69"/>
+                            <constraint firstItem="4Md-Hs-yA1" firstAttribute="leading" secondItem="4Hr-ol-zH4" secondAttribute="leading" id="PMe-dd-vHk"/>
+                            <constraint firstItem="CSl-hj-YOD" firstAttribute="trailing" secondItem="uhJ-Xx-fxx" secondAttribute="trailing" id="QAK-VO-O9h"/>
+                            <constraint firstItem="CSl-hj-YOD" firstAttribute="leading" secondItem="4Hr-ol-zH4" secondAttribute="leading" id="bgn-Wz-yZw"/>
+                            <constraint firstItem="whk-mW-kDn" firstAttribute="centerY" secondItem="CSl-hj-YOD" secondAttribute="centerY" id="fh5-aZ-Efx"/>
+                            <constraint firstItem="CSl-hj-YOD" firstAttribute="centerY" secondItem="4Hr-ol-zH4" secondAttribute="centerY" id="ndL-V0-cd3"/>
+                            <constraint firstItem="4Hr-ol-zH4" firstAttribute="leading" secondItem="uhJ-Xx-fxx" secondAttribute="leading" id="wP5-zB-fgA"/>
+                            <constraint firstAttribute="bottom" secondItem="uhJ-Xx-fxx" secondAttribute="bottom" constant="20" symbolic="YES" id="wXc-QX-c3P"/>
+                            <constraint firstItem="4Md-Hs-yA1" firstAttribute="trailing" secondItem="CSl-hj-YOD" secondAttribute="trailing" id="zid-sd-djx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="DAE-Os-1vP"/>
